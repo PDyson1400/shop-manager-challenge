@@ -93,7 +93,7 @@ class Application
             item = Items.new
             @io.puts "Item name?"
             item.name = @io.gets.chomp
-            @io.puts "Item price?"
+            @io.puts "Item price? $X.XX"
             item.price = @io.gets.chomp
             @io.puts "Item quantity?"
             item.quantity = @io.gets.chomp
